@@ -38,10 +38,5 @@ public class InvoiceServiceTest {
 		InvoiceSummary expectedInvoiceSummary =new InvoiceSummary (numOfRides, );
 		Assert.assertEquals(expected InvoiceSummary,summary);
 		};
-	}
-	@Test
-	public void given() {
-
-	}
 }
 
