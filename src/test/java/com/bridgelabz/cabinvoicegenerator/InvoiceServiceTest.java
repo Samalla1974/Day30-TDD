@@ -28,20 +28,6 @@ public class InvoiceServiceTest {
 							new Ride (distance 3.0  time 3)
 		};
 		double fare= invoicegenerator.calculateFare(rides);
-		Assert.assertEquals(distance,time);
-	}
-	@Test
-	public void givenMultipleRides_ShouldReturnInvoiceSummary() {
-		Ride[] rides = {	new Ride (distance 2.0  time 2),
-				new Ride (distance 3.0  time 3)
-        InvoiceSummary summary = new InvoiceSummary.calculateFare(rides);
-		InvoiceSummary expectedInvoiceSummary =new InvoiceSummary (numOfRides, );
-		Assert.assertEquals(expected InvoiceSummary,summary);
-		};
-	}
-	@Test
-	public void given() {
-
-	}
+		Assert.assertEquals(distance,time)
 }
 
