@@ -17,8 +17,8 @@ public boolean equals(Object e) {
 	if (o == null || getClass() != o.getClass()) return false;
 	InvoiceSummmary that = (InvoiceSummmary) o;
 	return numOfRides == that.numOfRides &&
-			Double.compare(that.totalFare, totalFare) == o &&
-			Double.compare(that.averageFare, averageFare) == o;	
+			Double.compare(that.totalFare, totalFare) == 0 &&
+			Double.compare(that.averageFare, averageFare) == 0;	
 }
 	
 }
